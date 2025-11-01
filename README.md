@@ -8,49 +8,27 @@
   <h3 align="center">Jet Fighter</h3>
 
   <p align="center">
-    Próba rekonstrukcji gry z 1975 roku
-    <br />
-    <a href="https://www.youtube.com/watch?v=LTnQcxT93SA">Zobacz wideo rozgrywki z automatu</a>
+    An attempt to recreate the 1975 Jet Fighter game
   </p>
 </p>
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Spis treści</h2></summary>
-  <ol>
-    <li>
-      <a href="#o-projekcie">O Projekcie</a>
-        <li><a href="#użyte-technologie">Użyte technologie</a></li>
-    </li>
-    <li>
-      <a href="#sposób-uruchomienia">Sposób uruchomienia</a>
-  </li>
-   <li>
-      <a href="#wideo-z-rozgrywki">Wideo z rozgrywki</a>
-  </li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
-## O Projekcie
+## About the project
 
-Projekt jest próbą rekonstrukcji gry Jet Fighter z 1975 roku. Jest to gra ze starych automatów do gier, niegdyś popularnych w salonach gier w USA. Dziś sama ulotka do tego automatu warta 10-30 dolarów jest gratką dla kolekcjonerów, a cena samego automatu do gier jest przez emnie nieznana, gdyż jest to jeden z najrzadszych automatów. W grze latają dwa samoloty(biały i czarny), którymi sterują dwaj gracze przeciwko grający przeciwko sobie. Więcej informacji można znaleźć <a href="https://www.arcade-museum.com/game_detail.php?game_id=8232">tutaj</a>. W moim projekcie sterowanie odbywa się za pomocą przycisków A, D i spacji dla myśliwca białego oraz strzałek < > i entera dla czarnego. 
+This project is an attempt to recreate the 1975 Jet Fighter game. It's a game from old arcade machines, once popular in US arcades. Today, the flyer for this machine alone, worth $10-30, is a collector's item, and I don't know the price of the actual machine itself, as it's one of the rarest machines. The game features two planes (white and black), controlled by two players who play against each other. More information can be found <a href="https://www.arcade-museum.com/game_detail.php?game_id=8232">tutaj</a>. In my project, controls are performed using the A, D, and spacebar for the white fighter, and the < > arrow and enter keys for the black one.
 
-## Użyte technologie
+## Tools used
 
-* [Framework libGDX](https://libgdx.com/dev/)
-* Klasy Stack, Color, Date
+* [libGDX Framework](https://libgdx.com/dev/)
 
-## Sposób uruchomienia
+## How to start
 
-Aby uruchomić projekt należy go zaimportować jako projekt Gradle i wybrać wersję 5.4.
-Przykład z użyciem Eclipse:
-File -> Import -> Existing Gradle Project -> Wybrać ścieżkę do folderu z projektem -> Wybrać w polu Specific Gradle version wartość 5.4.
+To run the project, import it as a Gradle project and select version 5.4.
+Example using Eclipse:
+File -> Import -> Existing Gradle Project -> Choose the path to the project folder -> Select 5.4 in the Specific Gradle version box.
 
-## Wideo z rozgrywki
+## Presentation
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/RmaOK0SfDqc/0.jpg)](https://www.youtube.com/watch?v=RmaOK0SfDqc "Jet Fighter")
+
